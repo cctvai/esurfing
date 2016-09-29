@@ -1,0 +1,32 @@
+{
+    "name": "wenpeng/esurfing",
+    "description": "中国电信天翼开放平台 第三方PHP SDK https://github.com/wenpeng/esurfing",
+    "keywords": [
+        "中国电信",
+        "电信天翼",
+        "天翼短信接口"
+    ],
+    "homepage": "https://github.com/wenpeng/esurfing",
+    "type": "library",
+    "require": {
+        "php": ">=5.4",
+        "wenpeng/curl": ">=0.1.1"
+    },
+    "require-dev": {
+        "php": ">=5.4",
+        "wenpeng/curl": ">=0.1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wenpeng",
+            "email": "imwwp@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Wenpeng\\Esurfing\\": "src/"
+        }
+    }
+}
