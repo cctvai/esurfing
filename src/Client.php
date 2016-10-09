@@ -76,8 +76,8 @@ class Client
     public function curl($url, $params)
     {
         $curl = new Curl();
-        $curl->post($params)->submit($url);
-        if ($curl->fail()) {
+        $curl->post($params)->url($url);
+        if ($curl->error()) {
             throw new Exception($curl->message());
         }
 
