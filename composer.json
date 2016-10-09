@@ -10,11 +10,11 @@
     "type": "library",
     "require": {
         "php": ">=5.4",
-        "wenpeng/curl": ">=0.1.1"
+        "wenpeng/curl": "*"
     },
     "require-dev": {
         "php": ">=5.4",
-        "wenpeng/curl": ">=0.1.1"
+        "wenpeng/curl": "*"
     },
     "license": "MIT",
     "authors": [
